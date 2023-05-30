@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-grid';
+@import "var";
+@import "setings";
+@import"mixins/variables";
+@import"mixins/pseudo";
+@import"mixins/zindex";
+@import"mixins/flexcontainer";
+@import'components/carouselbox';
+@import'components/collection';
+@import'components/poster';
+@import'components/works';
+@import 'components/gallery';
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+color:$black;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import"fonts";
