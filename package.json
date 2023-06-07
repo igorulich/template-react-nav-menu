@@ -16,13 +16,14 @@
     "react-router-dom": "^5.3.4",
     "react-sass-inlinesvg": "^1.0.5",
     "react-scripts": "5.0.1",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "webpack-dev-server": "^4.15.0"
   },
-"lint-staged": {
- "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-   "prettier --write"
-]
-},
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
